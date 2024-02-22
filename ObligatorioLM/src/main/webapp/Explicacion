@@ -1,0 +1,19 @@
+
+-----------CASO 1--------------------------------------------------------------
+En el caso uno declaramos dos variables globales para después dentro de un if
+editamos una de estas localmente(dentro del if) y la otra
+globalmente(a nivel de toda la aplicación). La variable que modificamos a nivel
+local solo mantendrá este valor mientras el código que se ejecute sea dentro
+del if
+-----------CASO 2--------------------------------------------------------------
+En el caso dos entramos en un bucle en el que tiene una variable que inicializa
+en 0 y que después de cada iteración sumará 1 a su valor mientras sea menor que
+10. Durante cada iteración mostrará por pantalla el valor que tiene en ese
+instante.
+Al estar la variable declarada de forma local y dentro de los parámetros del
+for esta misma solo estará disponible dentro del for fuera de él es como si
+nunca se hubiera declarado
+-----------CASO 3--------------------------------------------------------------
+En el caso 3 se crea una variable global con valor 5 y después dos variable
+locales, una con el valor de la anterior más 10 y otra con valor 12. Después se
+pide que muestre por pantalla la suma de las dos variables locales
